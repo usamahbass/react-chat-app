@@ -1,0 +1,11 @@
+.container {
+  font-family: "Nunito", sans-serif;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}

@@ -1,0 +1,76 @@
+.first_content {
+  width: 100%;
+  height: 100vh;
+  background: #0072ff;
+  font-family: "Nunito", sans-serif;
+}
+
+.first_content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background: url(../../../assets/wave/wave3.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_error {
+  width: 400px;
+}
+
+.div_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_text h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  text-shadow: 2px 4px #00c6ff;
+}
+
+.first_content p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 2px 4px #00c6ff;
+}
+
+.div_button {
+  display: flex;
+  justify-content: center;
+}
+
+.back .link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 40px;
+  cursor: pointer;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.back .link:hover {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 550px) {
+  .back {
+    display: none;
+  }
+  .first_content::before {
+    display: none;
+  }
+}

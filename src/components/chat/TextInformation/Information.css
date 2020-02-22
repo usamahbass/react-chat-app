@@ -1,0 +1,17 @@
+.information {
+  position: fixed;
+  font-family: cursive;
+  padding-top: 272px;
+  margin-left: 272px;
+  text-align: center;
+  line-height: 18px;
+  color: #777;
+}
+
+@media (max-width: 575.98px) {
+  .information {
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,26 @@
+.img-about {
+  width: 200px;
+  position: relative;
+}
+
+.center-text-about {
+  position: relative;
+  bottom: 100px;
+  text-align: center;
+}
+
+.about-box-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-box-account i {
+  position: relative;
+  right: 15px;
+  cursor: pointer;
+  margin-left: 30px;
+  color: #999;
+  font-size: 40px;
+}

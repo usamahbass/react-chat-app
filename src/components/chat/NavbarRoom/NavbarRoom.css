@@ -1,0 +1,82 @@
+.user-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user_chat {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+  cursor: pointer;
+}
+
+.user_chat h5 {
+  font-size: 15px;
+  color: #fff;
+  margin: 0 0 8px 0;
+}
+
+.user_chat small {
+  color: #f2f2f2;
+  margin: auto;
+  display: none;
+}
+
+.search-pesan-box:hover > .search-pesan {
+  width: 480px;
+}
+
+.search-pesan-box {
+  position: relative;
+  bottom: 5px;
+}
+
+.search-pesan {
+  position: relative;
+  top: 5px;
+  left: 10px;
+  width: 0px;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  transition: 0.4s;
+  background: transparent;
+  border-bottom: 1px solid #ffffff;
+}
+
+.search-pesan:focus,
+.search-pesan::placeholder {
+  outline: none;
+  color: #ffffff;
+}
+
+.search-icon {
+  color: #ffffff;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  position: relative;
+  left: 0;
+}
+
+.search-icon:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  .user_chat {
+    position: relative;
+    left: 25px;
+  }
+  .search-icon {
+    display: none;
+  }
+}

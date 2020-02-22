@@ -1,0 +1,397 @@
+.wow {
+  visibility: hidden;
+}
+
+#scrollTop {
+  border-radius: 100%;
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 0 30px -5px rgba(0, 114, 255, 1);
+  color: #0072ff;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+/* Space */
+
+.space-10 {
+  height: 10px;
+}
+
+.space-20 {
+  height: 20px;
+}
+
+.space-30 {
+  height: 30px;
+}
+
+.space-50 {
+  height: 50px;
+}
+
+.space-60 {
+  height: 60px;
+}
+
+.space-500 {
+  height: 100px;
+}
+
+[class|="space"] {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Content */
+
+.content {
+  font-family: "Nunito", sans-serif;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.page-title .title {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ccc;
+  font-weight: 600;
+}
+
+.page-title .title:before,
+.page-title .title:after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  display: inline-block;
+  background-color: #e1e1e1;
+  margin: 0 15px;
+}
+
+.build-with {
+  color: #ffffff;
+  background: #0072ff;
+  background-image: url("../../../assets/home/web_dev.svg");
+  background-position: bottom 100px center;
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  margin-bottom: 142px;
+}
+
+.service-box {
+  position: relative;
+  padding-left: 100px;
+}
+
+.box-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70px;
+  background: #ffffff;
+  width: 70px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 70px;
+  font-size: 20px;
+  overflow: hidden;
+  z-index: 1;
+  color: #0072ff;
+  transition: 0.3s;
+}
+
+.box-icon:hover {
+  background: #0072ff;
+  color: #ffffff;
+  border: 2px solid #fff;
+}
+
+.section-padding-top {
+  padding-top: 120px;
+}
+
+.page_title .title {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.logo-image {
+  position: relative;
+  left: 45%;
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+  width: 100px;
+}
+
+.page_title .title:before,
+.page_title .title:after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  display: inline-block;
+  background-color: #e1e1e1;
+  margin: 0 15px;
+}
+
+.area {
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-top: 100px;
+  background-size: auto 100%;
+}
+
+/* Button */
+
+.btnlearn-more {
+  position: relative;
+  border-radius: 100%;
+  margin: auto auto 30px auto;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+  overflow: hidden;
+  z-index: 1;
+  background: #ffffff;
+  color: #0072ff;
+  border: 2px solid #0072ff;
+  transition: 0.3s;
+}
+
+.btnlearn-more:hover,
+.btnlearn-more:focus {
+  box-shadow: inset 0 0 0 2em #0072ff;
+  /* transform: translateY(-0.25em); */
+  background: #0072ff;
+  color: #ffffff;
+  outline: none;
+}
+
+.box-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-account i {
+  position: relative;
+  right: 15px;
+  cursor: pointer;
+  margin-left: 30px;
+  color: #999;
+  font-size: 25px;
+}
+
+/* Image */
+
+.figure-img {
+  margin-bottom: -150px;
+}
+
+.figure-img img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+.feature-area .chat-image {
+  margin-bottom: -142px;
+}
+
+.chat-image img {
+  width: 550px;
+}
+
+.img-dev {
+  width: 10rem;
+  height: 10em;
+  border-radius: 100%;
+}
+
+/* Color */
+
+.blue-color {
+  color: #0072ff;
+  margin: 0px 0px 15px;
+  font-weight: 400;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0em;
+  margin-inline-end: 0em;
+}
+
+.gray-color {
+  margin: 0px 0px 10px;
+  color: #777;
+}
+
+.dark-color {
+  color: #434343;
+}
+
+/* End */
+
+.client-box {
+  width: 360px;
+  position: relative;
+  padding: 55px 33px 30px 30px;
+  border-radius: 5px;
+  margin-top: 40px;
+  transition: 0.3s;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.1);
+}
+
+.client-box .client-image {
+  position: absolute;
+  top: -40px;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background: #ffffff;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  border: 5px solid #ffffff;
+}
+
+.client-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.client-box h4 {
+  color: #0072ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.client-box h6.client-work {
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+  font-weight: 400;
+}
+
+.client-box p {
+  margin: 0 0 10px;
+}
+
+.client-box-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.client-box-account i {
+  position: relative;
+  right: 15px;
+  cursor: pointer;
+  margin-left: 30px;
+  color: #999;
+  font-size: 25px;
+}
+
+/* Contact */
+
+.center-text {
+  text-align: center;
+}
+
+.service-icons {
+  text-align: center;
+}
+
+.contact-icons {
+  position: relative;
+  border-radius: 100%;
+  margin: auto auto 30px auto;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+  overflow: hidden;
+  z-index: 1;
+  background: #ffffff;
+  color: #0072ff;
+  border: 2px solid #0072ff;
+  transition: 0.3s;
+}
+
+.contact-icons:hover {
+  background: #0072ff;
+  color: #ffffff;
+}
+
+.about-dev {
+  border-radius: 50px;
+  padding: 15px 60px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0072ff;
+  border: 2px solid #0072ff;
+  z-index: 999;
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.about-dev:hover,
+.about-dev:focus {
+  background: #0072ff;
+  color: #ffffff;
+  outline: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .build-with {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .feature-area {
+    background-image: none;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .service-icons {
+    padding-bottom: 100px;
+  }
+  .chat-image {
+    display: none;
+  }
+}

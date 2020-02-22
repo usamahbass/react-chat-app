@@ -1,0 +1,101 @@
+/* scroll */
+::-webkit-scrollbar {
+  position: relative;
+  bottom: 100px;
+  width: 2.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0072ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0072ff;
+}
+
+/* chat-contact */
+
+.inbox-chat {
+  height: auto;
+}
+
+.inbox-chat:hover {
+  background: #0072ff;
+}
+
+.inbox-chat:hover h5 {
+  color: #ffffff;
+}
+
+.class-chat {
+  height: 100%;
+  overflow: auto;
+}
+
+.chat-list {
+  border-bottom: 1px solid #d9d9d9;
+  margin: 0;
+  padding: 25px 16px 10px;
+  cursor: pointer;
+}
+
+.class-chat-list {
+  overflow-x: hidden;
+}
+
+.chat-people {
+  overflow: hidden;
+  clear: both;
+}
+
+.chat-img {
+  float: left;
+  width: 11%;
+}
+
+.chat-img img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.chat-mini {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.chat-mini h5 {
+  font-size: 15px;
+  color: #222;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.chat-mini h5 span {
+  font-size: 13px;
+  float: right;
+}
+.chat-mini p {
+  font-size: 14px;
+  color: #989898;
+  margin-left: 10px;
+}
+
+.chat-click h5 {
+  color: #ffffff;
+}
+
+.active {
+  background: #0072ff;
+}
+
+.active h5 {
+  color: #ffffff;
+}

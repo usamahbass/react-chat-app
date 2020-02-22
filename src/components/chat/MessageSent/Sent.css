@@ -1,0 +1,71 @@
+.message-out {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+
+.sent-message {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 91%;
+}
+
+.message-sent {
+  float: right;
+  width: 50%;
+  cursor: pointer;
+}
+.message-sent p {
+  background: #0072ff;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.time-send {
+  display: block;
+  float: right;
+  margin: 8px;
+  color: #757575;
+  font-size: 12px;
+}
+
+.message-out-img {
+  display: inline-block;
+  width: 6%;
+}
+
+.message-out-img img {
+  float: left;
+  max-width: 60px;
+  margin-right: 20px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.message-out-img {
+  display: inline-block;
+  width: 6%;
+}
+
+.message-out-img img {
+  float: left;
+  max-width: 60px;
+  margin-left: 20px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media (max-width: 575.98px) {
+  .message-sent {
+    position: relative;
+    right: 10px;
+  }
+  .message-out-img img {
+    margin-left: 10px;
+  }
+}

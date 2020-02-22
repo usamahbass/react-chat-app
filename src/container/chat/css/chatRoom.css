@@ -1,0 +1,48 @@
+dropdown .dropdown-icon-box .dropdown-menu {
+  max-width: 100vh;
+  width: 200px;
+  border-radius: 0;
+  padding: 9px 0;
+  float: none;
+  right: -32px;
+  top: 45px;
+  left: auto;
+  border: 1px solid #f1f1f1;
+  margin: -1px 0px 0px 0px;
+  box-shadow: 0px 1px 3px 0px #f1f1f1;
+}
+/* 
+.open > .dropdown-menu {
+  display: block;
+} */
+
+/* modal */
+
+/* contacts */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* chat room */
+
+.full-message {
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 100%;
+}
+
+.space-message {
+  overscroll-behavior-y: contain;
+  overflow-y: auto;
+  height: 500px;
+}
+
+@media (max-width: 575.98px) {
+  .full-message {
+    padding: 0;
+  }
+}

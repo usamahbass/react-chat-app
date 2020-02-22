@@ -1,0 +1,86 @@
+/* settings */
+
+.img-upload {
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.img-upload > input {
+  display: none;
+}
+
+.form {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+}
+
+.form .modal_input {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  padding-top: 10px;
+  border: none;
+  outline: none;
+}
+
+.form label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.form .modal_label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px solid #0072ff;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.modal_span {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  color: #777;
+  transition: all 0.3s ease;
+}
+
+.form .modal_input:focus + .modal_label .modal_span,
+.form .modal_input:valid + .modal_label .modal_span {
+  transform: translateY(-83%);
+  font-size: 14px;
+  color: #0072ff;
+}
+
+.form .modal_input:focus + .modal_label::after,
+.form .modal_input:valid + .modal_label::after {
+  transform: translateY(0%);
+}
+
+@media (max-width: 575.98px) {
+  .user {
+    position: relative;
+    bottom: 50px;
+    margin-bottom: 100px;
+    left: 30px;
+  }
+  .friends {
+    position: relative;
+    margin-bottom: 100px;
+    left: 30px;
+  }
+}
