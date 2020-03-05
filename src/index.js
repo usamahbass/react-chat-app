@@ -7,3 +7,5 @@ import * as serviceWorker from "./serviceWorker";
 import "./style/bootstrap.css";
 
 ReactDOM.render(<Routes />, document.getElementById("root"));
+
+serviceWorker.register();
