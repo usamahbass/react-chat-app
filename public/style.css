@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 600px) {
-  #startingloader {
+  #starting-loader {
     left: 45%;
     top: 45%;
   }
