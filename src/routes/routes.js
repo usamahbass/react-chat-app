@@ -8,6 +8,16 @@ import Chat from "../container/chat/Chat";
 import Error from "../components/chat/404/Error";
 
 export default class Routes extends Component {
+  componentDidMount() {
+     // remove load big package
+
+    const load = document.getElementById("starting-loader");
+    window.onload = () => {
+      if (load) {
+        load.remove();
+      }
+    };
+  }
   render() {
     return (
       <Router>
