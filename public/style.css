@@ -1,0 +1,26 @@
+ 
+#startingloader {
+  height: 0;
+  width: 0;
+  padding: 15px;
+  border: 6px solid #ccc;
+  border-right-color: #0072ff;
+  border-radius: 22px;
+  -webkit-animation: rotate 1s infinite linear;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  #startingloader {
+    left: 45%;
+    top: 45%;
+  }
+}
